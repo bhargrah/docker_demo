@@ -1,3 +1,8 @@
+### Create account on Docker Hub
+Click [here](https://hub.docker.com/) to login
+
+### Docker Labs (Super Lazy Developers)
+Click [Lab](https://labs.play-with-docker.com/#) to initialize
 
 ### Fibonacci API
 
