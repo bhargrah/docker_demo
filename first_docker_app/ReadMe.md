@@ -57,7 +57,7 @@ docker images
 
 ### Step 7: Test Image on Lab
 ``` python
-docker run -p 8080:5000 first_docker_app
+docker run -d -p 8080:5000 first_docker_app
 ```
 
 ### Step 8: Push Image to Docker account
