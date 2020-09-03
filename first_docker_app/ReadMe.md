@@ -57,10 +57,17 @@ docker images
 
 ### Step 7: Test Image on Lab
 ``` python
-docker run -d -p 8080:5000 first_docker_app
+docker run -d -p 8080:5000 first_docker_app.  # detached mode
 ```
 
-### Step 8: Push Image to Docker account
+### Step 8: Stop Process
+``` python
+docker ps
+docker stop {process name}
+docker ps -a  # will show audit of processes
+```
+
+### Step 9: Push Image to Docker account
 ``` unix
 docker login
 docker build . -t {docker_login_id}/first_docker_app
