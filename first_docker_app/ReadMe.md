@@ -46,11 +46,13 @@ ENTRYPOINT FLASK_APP=/opt/app.py flask run --host=0.0.0.0
 ``` unix
 cd first_docker_app
 docker build .
+docker images
 ```
 
 ### Step 6: Name Image 
 ``` unix
 docker build . -t first_docker_app
+docker images
 ```
 
 ### Step 7: Test Image on Lab
