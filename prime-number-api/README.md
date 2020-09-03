@@ -17,7 +17,7 @@ docker images
 ```
 Spin up a container using the following command 
 ``` bash
-docker run -dp host-port:8080 nishikantpatil/prime-number-api:0.1 
+docker run -dp 8081:8080 nishikantpatil/prime-number-api:0.1 
 # replace 'host-port' with any unused port on the host machine
 ```
 
