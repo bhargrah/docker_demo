@@ -18,5 +18,16 @@
 ### Docker Labs (Super Lazy Developers)
 - Click [Lab](https://labs.play-with-docker.com/#) to initialize
 
+## Hello Docker
+```unix
+docker version
+docker info
+docker run hello-world
+docker images
+docker ps
+docker ps -a
+docker info
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
