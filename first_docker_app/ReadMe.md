@@ -71,5 +71,6 @@ docker ps -a  # will show audit of processes
 ``` unix
 docker login
 docker build . -t {docker_login_id}/first_docker_app
+docker images
 docker push {docker_login_id}/first_docker_app
 ```
