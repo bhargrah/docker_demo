@@ -27,6 +27,9 @@ docker images
 docker ps
 docker ps -a
 docker info
+
+
+docker image inspect hello-world
 ```
 
 ## License
